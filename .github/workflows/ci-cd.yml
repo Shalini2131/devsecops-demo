@@ -26,7 +26,7 @@ jobs:
         run: npm ci
       
       - name: Run tests
-        run: npm test || echo "No tests found, would add tests in a real project"
+        run: npm test
 
   lint:
     name: Static Code Analysis
